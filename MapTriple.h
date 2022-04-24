@@ -2,7 +2,7 @@
 #define MAPTRIPLE_H
 
 #include "MapGeneric.h"
-
+#include <cmath>
 
 class MapTriple: public MapGeneric {
 

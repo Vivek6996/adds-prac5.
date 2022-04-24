@@ -3,6 +3,7 @@
 
 #include "MapGeneric.h"
 #include <stdlib.h> 
+#include <cmath>
 
 
 class MapAbsoluteValue: public MapGeneric {

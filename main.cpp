@@ -11,8 +11,9 @@
 #include "ReduceMinimum.h"
 
 #include <iostream>
+#include <cmath>
 
 int main(){
 
-    
+
 }
