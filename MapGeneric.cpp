@@ -1,5 +1,10 @@
 #include "MapGeneric.h"
 
+#include <iostream>
+#include <vector>
+#include <cmath>
+using std::vector;
+
 vector<int> MapGeneric::map(vector<int> vecRec){
 
     vector<int> mapVec;
