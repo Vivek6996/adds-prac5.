@@ -7,11 +7,10 @@
 using std::vector;
 
 
-
 class MapGeneric {
 
     public:
-        vector<int> map(vector<int> vecRec);
+        vector<int> MapGeneric::map(vector<int> vecRec);
 
     private:
         virtual int f(int x) = 0;
@@ -21,3 +20,4 @@ class MapGeneric {
 
 
 #endif
+
