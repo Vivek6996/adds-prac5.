@@ -10,7 +10,7 @@ using std::vector;
 class MapGeneric {
 
     public:
-        vector<int> MapGeneric::map(vector<int> vecRec);
+        vector<int> MapGeneric::map(vector<int>);
 
     private:
         virtual int f(int x) = 0;

@@ -10,9 +10,7 @@ class MapTriple: public MapGeneric {
     MapTriple();
 
     private:
-        int f(int x){
-            return x * 3;
-        }
+        int f(int x);
 
 };
 

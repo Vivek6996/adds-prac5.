@@ -12,9 +12,7 @@ class MapAbsoluteValue: public MapGeneric {
     MapAbsoluteValue();
 
     private:
-        int f(int x){
-            return abs(x);
-        }
+        int f(int x);
 
 };
 

@@ -13,9 +13,7 @@ class MapSquare: public MapGeneric {
     MapSquare();
 
     private:
-        int f(int x){
-            return x * x;
-        }
+        int f(int x);
 
 };
 
