@@ -4,14 +4,14 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-using namespace std;
+using std::vector;
 
 
 
-class MapGeneric{
+class MapGeneric {
 
     public:
-         vector<int> MapGeneric::map(vector<int> vecRec);
+        vector<int> map(vector<int> vecRec);
 
     private:
         virtual int f(int x) = 0;
